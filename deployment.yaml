@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-node-app
-        image: my-node-app:v2
-        imagePullPolicy: Never
+        image: chandu7521/jenkins-demo:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
